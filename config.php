@@ -1,12 +1,12 @@
 <?php 
 	session_start();
 
-	$appId = '165210707507361'; 
-	$appSecret = 'e0b6dc2d747efe1e7d6546e66337f2d3';
-	$requiredPermissions = 'public_profile, publish_actions, user_groups'; 
-	$redirectURL = 'http://localhost'; // FB will redirect to this page with a code
+	$appId = ''; // Mausukkan appID yang ada di Facebook Developer
+	$appSecret = ''; // Masukkan appSecret yang ada di Facebook Developer
+	$requiredPermissions = 'public_profile, publish_to_groups, publish_pages'; 
+	$redirectURL = ''; // Masukkan URL URI yang kalian daftarkan di Facebook Apps Developer
  	
- 	$minDelayTime = 20; // Set the min delay in seconds between api requests
-	$maxDelayTime = 40; // Set the max delay in seconds between api requests
-	$maxGroups = 1; // Set the max amount of groups to post to
+ 	$minDelayTime = 20; // Set minimal delay pada request api
+	$maxDelayTime = 40; // Set maximal delay pada request api
+	$maxGroups = 1; // Set maximal post digrup.
 ?>
