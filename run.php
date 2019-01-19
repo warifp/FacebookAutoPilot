@@ -61,13 +61,13 @@
 
 							Thought I’d give something back to the community :)
 
-						 	Check out v2 of AppLandr, which allows you to generate beautifully crafted (free or paid) landing pages for your mobile applications! And of course it’s on Product Hunt!
+						 	This source code created by Wahyu Arif Purnomo
 							
 							Would love to hear your thoughts!
 							
-							http://applandr.com',
-							'link' => 'http://applandr.com',
-							'picture' => 'http://www.applandr.com/lib/images/dark.png'
+							Wahyu Arif Purnomo',
+							'link' => 'https://github.com/warifp',
+							'picture' => 'https://avatars2.githubusercontent.com/u/28912230?s=460&v=4'
 						);
 						
 						$groupUrl = "http://www.facebook.com/groups/" . $group->id;
